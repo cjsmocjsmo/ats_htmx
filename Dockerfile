@@ -12,5 +12,5 @@ COPY videos.html /usr/local/apache2/htdocs/
 RUN mkdir /usr/local/apache2/htdocs/land
 RUN mkdir /usr/local/apache2/htdocs/port
 
-COPY port/*.html /usr/local/apache2/htdocs/
-COPY land/*.html /usr/local/apache2/htdocs/
+COPY port /usr/local/apache2/htdocs/port
+COPY land /usr/local/apache2/htdocs/land
